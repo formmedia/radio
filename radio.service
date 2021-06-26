@@ -1,0 +1,10 @@
+[Unit]
+Description=Starter FORMmedia stream.
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /home/pi/form-media/radio.sh
+User=pi
+
+[Install]
+WantedBy=multi-user.target
